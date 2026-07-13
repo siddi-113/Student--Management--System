@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Registration Form</title>
+        <link rel="stylesheet" href="Registration.css">
+    </head>
+    <body>
+        <div class="Container">
+        <h2>SkillHub Student Registration</h2>
+<form >
+ <input type="text"  id="firstname" placeholder="First Name">
+ <input type="text" id="lastname"  placeholder="Last Name">
+ <br></br>
+ <input type="email" id="email"  placeholder="Email">
+ <input type="tel"  id="contact" placeholder="Contact Number" maxlength="10">
+ <br></br>
+ <input type="text"  id="aadhaar" placeholder="Aadhar Number" maxlength="12">
+ <br></br>
+ <textarea name="Address" id="address" placeholder="Address" ></textarea>
+ <br></br>
+ <select id="gender">
+    <option>Select Gender</option>
+    <option>Male</option>
+    <option>Female</option>
+    <option>Other</option>
+ </select>
+  <input type="date" id="date" placeholder="DOB">
+   <br></br>
+   <input type="text" id="qualification"  placeholder="Highest Qualification">
+    <input type="text" id="college" placeholder="College Name">
+     <br></br>
+    <input type="text" id="course" placeholder="Course Intersted">
+    <input type="password"  id="password"  placeholder="password" maxlength="15" required>  
+      <br></br>
+    <input type="password" id="confirmpassword" placeholder=" Confirm password">
+     <br></br>
+    <button type="button" onclick="registration_on()"   id="Register">Register</button>
+
+</form> 
+<button onclick="back()" id="Back">Back</button>
+</div>
+<script src="Registration.js"></script>
+    </body>
+</html>

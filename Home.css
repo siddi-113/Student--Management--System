@@ -1,0 +1,49 @@
+h1{
+    color: cadetblue;
+    font-size:50px;
+    margin-bottom:15px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    margin-bottom:20px;
+    font-size:25px;
+}
+p{
+    font-size:18px;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+    line-height:1.6;
+}
+
+button:hover{
+    background-color: darkslateblue;   
+}
+.container{
+    background-color: white;
+    width:600px;
+padding:55px;
+border-radius: 15px;
+
+}
+body{
+background-image: linear-gradient(to right, blue,rgba(0, 206, 209, 0.575),rgba(0, 0, 139, 0.459));
+background-color: darkcyan;
+height:100vh;
+display: flex;
+justify-content: center;
+align-items: center;    
+}
+.btn{
+   display:flex;
+    justify-content:center;
+    gap:15px;
+}
+button{
+    color: white;
+    background-color:dodgerblue;
+    border-radius: 13px;
+    border: none;
+    padding:13px;
+    font-size:18px;
+}

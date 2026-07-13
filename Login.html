@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login Page</title>
+        <link rel="stylesheet" href="Login.css">
+    </head>
+    <body>
+        <div class="container" id="login-container">
+            <h1>SkillHub</h1>
+            <h2>Student Login</h2>
+            <form   onsubmit="btn(event)">
+        <input type="email" placeholder=" Enter Email" id="email" required>
+        <br></br>
+        <input type="password" placeholder="Enter Password" id="password"  required>
+         <br></br>
+         <div id="forgot">
+         <p id=""></p></div>
+         <div class="btn-container">
+    <button type="submit" id="login_b">Login</button> 
+    </form>
+      <button  id="back_b" onclick="back()">Back</button> 
+       <button id="forgot_b" onclick="Forgot()">Forgot Password</button>
+    </div>
+      <p>
+        Don't have an account?
+        <a href="Registration.html ">
+            Register
+        </a>
+    </p>
+    </div>
+    <script src="Login.js"></script>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+body{
+background-color:lightskyblue;
+font-size:30px;}
+ul{
+position:relative;
+left:200px ;
+list-style-type:none;
+background-color:rgb(245, 188, 245);
+color:rgb(1, 1, 29);
+width:70%;
+border-radius: 10px;;
+}
+li{
+padding:10px;
+position: relative;
+left:130px;
+}
+button{
+color: white;
+    background-color:dodgerblue;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+button:hover{
+    background-color: navy;
+}
