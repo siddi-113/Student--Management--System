@@ -1,0 +1,28 @@
+Student Management System – Project Process
+Step 1: Requirement Analysis
+Identified the need for a system to manage student records digitally.
+Planned the features like registration, login, file upload, and record management.
+Step 2: Database Design
+Designed the SQL Server database.
+Created tables to store student information and uploaded files.
+Step 3: Frontend Development
+Developed the user interface using HTML, CSS, and JavaScript.
+Created forms for student registration and management.
+Step 4: Backend Development
+Built the server using Node.js and Express.js.
+Created REST APIs to handle requests from the frontend.
+Step 5: Database Integration
+Connected the Node.js application with SQL Server.
+Implemented CRUD (Create, Read, Update, Delete) operations.
+Step 6: File Upload
+Added file upload functionality using Multer.
+Stored uploaded files and their details.
+Step 7: Testing and Debugging
+Tested every module.
+Fixed errors related to SQL queries, API requests, and file uploads.
+Step 8: Version Control
+Used Git for version control.
+Uploaded the project to GitHub for code management and collaboration.
+Step 9: Final Deployment
+Verified that all modules worked correctly.
+Completed the project documentation and prepared it for demonstration.
